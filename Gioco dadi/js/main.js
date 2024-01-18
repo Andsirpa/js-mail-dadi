@@ -7,3 +7,12 @@ console.log('User number: ' + userNumber);
 const computerNumberGenerator = Math.floor(Math.random() * 6) + 1
 const computerNumber = computerNumberGenerator
 console.log('Computer number: ' + computerNumber);
+
+// definisco la condizione di vittoria
+if (userNumber > computerNumber) {
+    console.log('Utente is the winner');
+} else if (userNumber < computerNumber) {
+    console.log('Computer is the winner');
+} else {
+    console.log('Draw');
+}
